@@ -7,13 +7,13 @@ import {
 	Route,
 } from "react-router-dom";
 import SignIn from "./pages/SignIn";
-import index from "./pages/index";
+import Home from "./pages/Home";
 
 function App() {
 	return (
 		<Router>
 			<Routes>
-                <Route path="/" element={<index />} />
+                <Route path="/" element={<Home />} />
 				<Route path="/Sign-In" element={<SignIn />} />
 			</Routes>
 		</Router>
