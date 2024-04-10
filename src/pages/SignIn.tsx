@@ -1,6 +1,6 @@
 import React from 'react';
 
-function App() {
+function SignIn() {
   return (
     <div class="card card-md">
       <div class="card-body">
@@ -25,4 +25,4 @@ function App() {
   );
 }
 
-export default App;
+export default SignIn;
