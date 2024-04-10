@@ -2,6 +2,7 @@
   "name": "app",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "@tabler/core": "^1.0.0-beta20",
     "@testing-library/jest-dom": "^5.17.0",
