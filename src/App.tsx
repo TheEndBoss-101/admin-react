@@ -11,7 +11,6 @@ import SignIn from "./pages/SignIn";
 function App() {
 	return (
 		<Router>
-			<Navbar />
 			<Routes>
 				<Route path="/Sign-In" element={<SignIn />} />
 			</Routes>
