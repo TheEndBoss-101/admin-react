@@ -13,7 +13,7 @@ function App() {
 		<Router>
 			<Navbar />
 			<Routes>
-				<Route exact path="/Sign-In" element={<SignIn />} />
+				<Route path="/Sign-In" element={<SignIn />} />
 			</Routes>
 		</Router>
 	);
